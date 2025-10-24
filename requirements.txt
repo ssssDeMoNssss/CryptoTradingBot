@@ -1,0 +1,6 @@
+python-binance
+ccxt
+pandas
+sqlite3
+flask
+python-dotenv
