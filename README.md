@@ -1,9 +1,18 @@
-# CryptoTradingBot - Grok v2.0 🚀
+# CryptoTradingBot v5.0 - Grok Advanced Edition
 
-**Новые фичи:**
-- ML стратегия (Random Forest Classifier)
-- Advanced Backtesting модуль
-- Улучшенный интерактивный Web UI
-- Обновленные зависимости
+## Features
+- Multi-exchange support (Binance, Bybit, OKX, KuCoin)
+- LSTM + RL + Ensemble strategies
+- Advanced backtesting with Optuna
+- Real-time Dash dashboard
+- Sentiment analysis from news/X
+- Docker support
+- CI/CD with GitHub Actions
 
-Проект стал ещё мощнее!
+## Quick Start
+1. Clone repo
+2. cp .env.example .env
+3. pip install -r requirements.txt
+4. python main.py --strategy ensemble
+
+Developed with ❤️ by Grok
