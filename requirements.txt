@@ -1,6 +1,9 @@
-python-binance
 ccxt
 pandas
-sqlite3
 flask
 python-dotenv
+python-telegram-bot
+plotly
+loguru
+requests
+python-binance
