@@ -1,26 +1,25 @@
-# Crypto Trading Bot
+# CryptoTradingBot - Улучшенная версия от Grok 🚀
 
-Проект криптовалютного торгового бота с использованием SQLite, веб-интерфейса и функций проверки адресов.
+## Основные улучшения и новые фичи:
+- **Много-биржевая поддержка** через CCXT (Binance, Bybit и др.)
+- **Веб-дашборд** с Flask + Plotly графиками
+- **Risk Management**: stop-loss, take-profit, position sizing
+- **Telegram уведомления** о сделках
+- **Backtesting** и оптимизация стратегий
+- **Логирование**, retries, error handling
+- **Docker** поддержка
+- **Безопасность**: .env, wallet validation
+- SQLite с миграциями
 
 ## Установка
-1. Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/ssssDeMoNssss/CryptoTradingBot.git
-   ```
-2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Запустите бота:
-   ```bash
-   python src/bot.py
-   ```
+1. `git clone https://github.com/ssssDeMoNssss/CryptoTradingBot.git`
+2. `pip install -r requirements.txt`
+3. Настрой .env
+4. `python main.py`
 
-## Структура проекта
-- `src/` — исходный код бота
-- `scripts/` — скрипты для автоматизации
-- `requirements.txt` — зависимости
-- `README.md` — документация
+## Структура
+- `core/` - торговля
+- `web/` - дашборд
+- `db/` - база
+- `strategies/` - стратегии
 
-## Лицензия
-MIT
