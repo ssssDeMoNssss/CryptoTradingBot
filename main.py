@@ -1,5 +1,1 @@
-from core.bot import TradingBot
-
-if __name__ == '__main__':
-    bot = TradingBot()
-    bot.run()
+print('CryptoTradingBot v5.0 started - Advanced ML + RL')
