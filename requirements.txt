@@ -1,11 +1,8 @@
 ccxt
 pandas
 numpy
-torch
-torchvision
-torchaudio
 scikit-learn
-xgboost
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 stable-baselines3
 optuna
 hyperopt
@@ -13,6 +10,8 @@ dash
 plotly
 loguru
 python-dotenv
+web3
+tweepy
 alembic
-transformers
+flask
 requests

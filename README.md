@@ -1,18 +1,28 @@
-# CryptoTradingBot v5.0 - Grok Advanced Edition
+# CryptoTradingBot v6.0 - Advanced ML + RL Trading Bot
+
+**Optimized for Ubuntu 24.04.4**
+
+Professional crypto trading bot with multi-exchange support, ML/LSTM/RL strategies, advanced backtesting, web dashboard.
 
 ## Features
-- Multi-exchange support (Binance, Bybit, OKX, KuCoin)
-- LSTM + RL + Ensemble strategies
-- Advanced backtesting with Optuna
-- Real-time Dash dashboard
-- Sentiment analysis from news/X
+- Multi-agent RL, Ensemble models, LSTM, Sentiment analysis
+- CCXT support for Binance, Bybit, OKX, KuCoin, DeFi
+- Dash web UI with real-time charts
+- Hyperparameter optimization with Optuna
 - Docker support
-- CI/CD with GitHub Actions
+- Ubuntu 24.04 ready (systemd service ready)
 
-## Quick Start
-1. Clone repo
-2. cp .env.example .env
-3. pip install -r requirements.txt
-4. python main.py --strategy ensemble
+## Installation on Ubuntu 24.04
+```bash
+sudo apt update && sudo apt install python3-pip python3-venv git -y
+git clone https://github.com/ssssDeMoNssss/CryptoTradingBot.git
+cd CryptoTradingBot
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+# Edit .env
+python main.py --strategy ensemble
+```
 
-Developed with ❤️ by Grok
+See full docs in docs/ folder.
